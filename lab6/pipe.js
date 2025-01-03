@@ -1,4 +1,5 @@
 'use strict';
+
 const pipe = (...fns) => {
     fns.forEach(fn => {
         if (typeof fn !== "function") {
